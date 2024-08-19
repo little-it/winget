@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.6.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: ZabbixSIA.ZabbixAgent(64-bit)
+PackageVersion: 7.0.2.2400
+PackageLocale: en-US
+Publisher: Zabbix SIA
+PackageName: Zabbix Agent (64-bit)
+License: MIT License
+ShortDescription: Zabbix agent
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
