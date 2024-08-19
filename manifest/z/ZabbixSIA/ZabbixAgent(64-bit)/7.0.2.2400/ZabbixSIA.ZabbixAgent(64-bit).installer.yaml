@@ -1,0 +1,16 @@
+# Created using wingetcreate 1.6.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ZabbixSIA.ZabbixAgent(64-bit)
+PackageVersion: 7.0.2.2400
+InstallerLocale: en-US
+InstallerType: wix
+ProductCode: '{41BE901B-92AC-47E5-8D72-AA703DC31214}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://cdn.zabbix.com/zabbix/binaries/stable/7.0/7.0.2/zabbix_agent-7.0.2-windows-amd64-openssl.msi
+  InstallerSha256: EAEE4148AD51A09B229D595C5EB7DBB64753CC0889AA2E460D7988EC8EDDBBF0
+  InstallerSwitches:
+    Custom: "/qn SERVER=172.16.8.10"
+ManifestType: installer
+ManifestVersion: 1.6.0
